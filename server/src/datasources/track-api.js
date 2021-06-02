@@ -9,7 +9,7 @@ class TrackAPI extends RESTDataSource {
   }
 
 
-  getTracksFromHome() {
+  getTracksForHome() {
       return this.get('tracks')
   }
 
